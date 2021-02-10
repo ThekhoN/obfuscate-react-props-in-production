@@ -3,9 +3,13 @@ import rootReducer from './reducers'
 
 console.log(`process.env.NODE_ENV: ${process.env.NODE_ENV}`)
 
+const enableReduxDevTools = () => process.env.NODE_ENV === 'development' ? true : false
+
+console.log(`enableReduxDevTools: ${enableReduxDevTools()}`)
+
 const store = configureStore({
   reducer: rootReducer,
-  devTools: process.env.NODE_ENV === 'development',
+  devTools: enableReduxDevTools()
 })
 
 export default store
