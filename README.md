@@ -16,4 +16,4 @@ You will also see any lint errors in the console.
 
 ### `access`
 
-Open [https://603360235c726700073129fe--condescending-colden-da2b2a.netlify.app/] (netlify app)
+Open [App](https://603360235c726700073129fe--condescending-colden-da2b2a.netlify.app/) 
