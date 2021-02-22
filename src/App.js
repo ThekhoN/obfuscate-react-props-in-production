@@ -1,8 +1,8 @@
-import {  Provider } from "react-redux";
+import { Provider } from 'react-redux'
 import ConnectedCounter from './components/ConnectedCounter'
 // import Counter from './components/Counter'
 import store from './redux/store'
-import './App.css';
+import './App.css'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <ConnectedCounter />
       </div>
     </Provider>
-  );
+  )
 }
 
-export default App;
+export default App
