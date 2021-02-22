@@ -29,8 +29,9 @@ export const shuffle = (s) => {
 
 export const getDisplayPropName = (name) => {
   // ACTUAL
-  // const IS_PRODUCTION = process.env.NODE_ENV === 'production'
-  const IS_PRODUCTION = true
+  const IS_PRODUCTION = process.env.NODE_ENV === 'production'
+  // MOCK
+  // const IS_PRODUCTION = true
   if (IS_PRODUCTION) {
     return nameObfuscator(name)
   } else {
